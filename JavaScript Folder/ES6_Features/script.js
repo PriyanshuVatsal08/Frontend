@@ -9,7 +9,7 @@ let age=23;
 
 // //Default function & Arrow function
 let sum=(a,b=10)=>{
-    return a+b
+    return a+b;
 }
 
 console.log(sum(15));
