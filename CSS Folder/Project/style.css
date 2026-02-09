@@ -1,0 +1,15 @@
+/* body{
+    background-image: url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+
+.image{
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
