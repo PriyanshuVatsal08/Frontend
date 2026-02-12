@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* body{
     background-image: url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg);
     background-repeat: no-repeat;
@@ -6,10 +10,11 @@
 
 .image{
     border: 2px solid black;
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     background-image: url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
