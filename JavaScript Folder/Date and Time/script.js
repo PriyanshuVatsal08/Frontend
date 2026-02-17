@@ -1,0 +1,28 @@
+// Get date and time
+// let d=new Date();
+// console.log(d);
+// console.log(d.getFullYear());
+// console.log(d.getHours()+" "+d.getMinutes()+" "+d.getSeconds());
+
+//Set date and time
+// let d=new Date();
+// d.setDate(5);
+// console.log(d);
+
+// d.setFullYear(2028);
+// console.log(d);
+
+//toLocalString
+// let d=new Date();
+// console.log(d.toLocaleString());
+// console.log(d.toLocaleDateString());
+// console.log(d.toLocaleTimeString());
+
+
+//Ques:- Add date in alreday given date
+const addDate=(date,extraDay)=>{
+    let x=date.setDate(date.getDate() + extraDay);
+    return new Date(x);
+}
+let date=new Date("2024-02-29");
+console.log(addDate(date,7).toLocaleString());
